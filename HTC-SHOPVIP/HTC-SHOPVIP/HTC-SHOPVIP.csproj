@@ -129,6 +129,7 @@
     <Compile Include="App_Start\FilterConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="Areas\Admin\AdminAreaRegistration.cs" />
+    <Compile Include="Areas\Admin\Controllers\SanPhamController.cs" />
     <Compile Include="Areas\Admin\Controllers\TaiKhoanController.cs" />
     <Compile Include="Areas\QuanTriVien\QuanTriVienAreaRegistration.cs" />
     <Compile Include="ChucNang.cs" />
@@ -168,6 +169,10 @@
     <Content Include="Areas\QuanTriVien\Views\web.config" />
     <Content Include="Areas\Admin\Views\Shared\_LayoutAdmin.cshtml" />
     <Content Include="Areas\Admin\Views\TaiKhoan\AdminLoginView.cshtml" />
+    <Content Include="Areas\Admin\Views\SanPham\DSSanPham.cshtml" />
+    <Content Include="Areas\Admin\Views\SanPham\ThemSP.cshtml" />
+    <Content Include="Areas\Admin\Views\SanPham\CapNhat.cshtml" />
+    <Content Include="Areas\Admin\Views\SanPham\BaoLoi.cshtml" />
     <None Include="Scripts\jquery-3.4.1.intellisense.js" />
     <Content Include="Scripts\jquery-3.4.1.js" />
     <Content Include="Scripts\jquery-3.4.1.min.js" />
