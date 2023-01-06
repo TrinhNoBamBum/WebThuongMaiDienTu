@@ -1,0 +1,51 @@
+﻿@using HTC_SHOPVIP.Models
+@{
+    ViewBag.Title = "TheoDoiDonHang";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+    var kh = Session["khachhang"] as Khachhang;
+}
+
+@if (kh == null)
+{
+    <h5>Không có đơn hàng</h5>
+}
+else
+{
+    using (var con = new Model1())
+    {
+        var dh = (from s in con.DonHangs
+                  where s.MaKH == kh.MaKH
+                  select s
+                ).ToList();
+
+
+        foreach (var item in dh)
+        {
+            <h6 class="li-donhang">Mã đơn hàng : @item.MaDon</h6>
+            <li class="li-donhang">Ngày đặt hàng : @item.Ngaydat</li>
+            var ctdh = (from s in con.CTDonHangs
+                        where s.MaDon == item.MaDon
+                        select s.MaSP).ToList();
+            foreach (var it in ctdh)
+            {
+                var sp = (from s in con.Sanphams
+                          where s.MaSP == it
+                          select s).FirstOrDefault();
+                var spa = (from s in con.SP_anh
+                           where s.MaSP == it && s.Linkanh.Contains("anhchinh")
+                           select s).FirstOrDefault();
+                <li class="li-donhang">Tên sản phẩm : @sp.TenSP</li>
+
+                <div class="li-donhang"><img src="~/Content/img/sanpham/@spa.Linkanh" class="img-fluid" width="400"><img /></div>
+                <li class="li-donhang">Thông tin : @sp.mota</li>
+                <br />
+
+
+            }
+            <br />
+            <br />
+            <br />
+        }
+
+    }
+}
