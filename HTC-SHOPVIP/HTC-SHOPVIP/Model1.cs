@@ -1,3 +1,4 @@
+using HTC_SHOPVIP.Models;
 using System;
 using System.ComponentModel.DataAnnotations.Schema;
 using System.Data.Entity;
@@ -27,6 +28,8 @@ namespace HTC_SHOPVIP
         public virtual DbSet<SP_Danhgia> SP_Danhgia { get; set; }
         public virtual DbSet<SP_Theloai> SP_Theloai { get; set; }
         public virtual DbSet<TaiKhoan> TaiKhoans { get; set; }
+        public virtual DbSet<KM_SP> KM_SPs { get; set; }
+ //       public object KM_SPs { get; internal set; }
 
         protected override void OnModelCreating(DbModelBuilder modelBuilder)
         {

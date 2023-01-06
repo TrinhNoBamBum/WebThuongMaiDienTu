@@ -1,9 +1,5 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Drawing;
-using System.Linq;
+﻿using System.Linq;
 using System.Text.RegularExpressions;
-using System.Web;
 using System.Web.Mvc;
 
 
@@ -12,11 +8,6 @@ namespace HTC_SHOPVIP.Areas.Admin.Controllers
     public class TaiKhoanController : Controller
     {
         // GET: Admin/TaiKhoan
-
-
-
-
-
 
         public ActionResult AdminLoginView(string tb, string tb1, string tb2)
         {

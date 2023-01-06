@@ -159,7 +159,6 @@ C:\Users\Admin\Desktop\BTL_TT\WebThuongMaiDienTu\HTC-SHOPVIP\HTC-SHOPVIP\bin\Sys
 C:\Users\Admin\Desktop\BTL_TT\WebThuongMaiDienTu\HTC-SHOPVIP\HTC-SHOPVIP\bin\Newtonsoft.Json.xml
 C:\Users\Admin\Desktop\BTL_TT\WebThuongMaiDienTu\HTC-SHOPVIP\HTC-SHOPVIP\bin\Antlr3.Runtime.pdb
 C:\Users\Admin\Desktop\BTL_TT\WebThuongMaiDienTu\HTC-SHOPVIP\HTC-SHOPVIP\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
-C:\Users\Admin\Desktop\BTL_TT\WebThuongMaiDienTu\HTC-SHOPVIP\HTC-SHOPVIP\obj\Debug\HTC-SHOPVIP.csproj.AssemblyReference.cache
 C:\Users\Admin\Desktop\BTL_TT\WebThuongMaiDienTu\HTC-SHOPVIP\HTC-SHOPVIP\obj\Debug\HTC-SHOPVIP.csproj.CoreCompileInputs.cache
 C:\Users\Admin\Desktop\BTL_TT\WebThuongMaiDienTu\HTC-SHOPVIP\HTC-SHOPVIP\obj\Debug\HTC-SHOPVIP.csproj.CopyComplete
 C:\Users\Admin\Desktop\BTL_TT\WebThuongMaiDienTu\HTC-SHOPVIP\HTC-SHOPVIP\obj\Debug\HTC-SHOPVIP.dll
