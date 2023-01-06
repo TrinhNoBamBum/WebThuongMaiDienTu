@@ -11,6 +11,10 @@ namespace HTC_SHOPVIP.Areas.Admin.Controllers
         // GET: Admin/KhuyenMai
         public ActionResult Index()
         {
+            if (Session["admin"] == null)
+            {
+                return RedirectToAction("AdminLoginView", "TaiKhoan");
+            }
             return View();
         }
     }
