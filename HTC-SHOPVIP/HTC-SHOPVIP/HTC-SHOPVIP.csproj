@@ -129,6 +129,7 @@
     <Compile Include="App_Start\FilterConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="Areas\Admin\AdminAreaRegistration.cs" />
+    <Compile Include="Areas\Admin\Controllers\KhuyenMaiController.cs" />
     <Compile Include="Areas\Admin\Controllers\SanPhamController.cs" />
     <Compile Include="Areas\Admin\Controllers\TaiKhoanController.cs" />
     <Compile Include="Areas\QuanTriVien\QuanTriVienAreaRegistration.cs" />
@@ -204,6 +205,7 @@
     <Folder Include="App_Data\" />
     <Folder Include="Areas\Admin\Assets\" />
     <Folder Include="Areas\Admin\Data\" />
+    <Folder Include="Areas\Admin\Views\KhuyenMai\" />
     <Folder Include="Areas\QuanTriVien\Controllers\" />
     <Folder Include="Areas\QuanTriVien\Data\" />
     <Folder Include="Areas\QuanTriVien\Views\Shared\" />
