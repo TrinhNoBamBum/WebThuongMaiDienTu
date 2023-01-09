@@ -8,7 +8,7 @@ using System.Net.Http;
 using System.Net.Http.Headers;
 using Newtonsoft.Json;
 using System.Drawing;
-using HTC_SHOPVIP.Models;
+using HTC_SHOPVIP;
 
 namespace HTC_SHOPVIP.Areas.Admin.Controllers
 {

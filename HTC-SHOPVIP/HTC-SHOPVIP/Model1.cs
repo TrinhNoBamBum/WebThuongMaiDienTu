@@ -1,4 +1,4 @@
-using HTC_SHOPVIP.Models;
+using HTC_SHOPVIP;
 using System;
 using System.ComponentModel.DataAnnotations.Schema;
 using System.Data.Entity;
@@ -29,7 +29,8 @@ namespace HTC_SHOPVIP
         public virtual DbSet<SP_Theloai> SP_Theloai { get; set; }
         public virtual DbSet<TaiKhoan> TaiKhoans { get; set; }
         public virtual DbSet<KM_SP> KM_SPs { get; set; }
- //       public object KM_SPs { get; internal set; }
+        public virtual DbSet<KM_KH> KM_KHs { get; set; }
+
 
         protected override void OnModelCreating(DbModelBuilder modelBuilder)
         {
@@ -75,7 +76,7 @@ namespace HTC_SHOPVIP
                 .WithRequired(e => e.Khachhang)
                 .WillCascadeOnDelete(false);
 
-            modelBuilder.Entity<khuyenmai>()
+/*            modelBuilder.Entity<khuyenmai>()
                 .HasMany(e => e.Khachhangs)
                 .WithMany(e => e.khuyenmais)
                 .Map(m => m.ToTable("KM_KH").MapLeftKey("MaKM").MapRightKey("MaKH"));
@@ -83,7 +84,7 @@ namespace HTC_SHOPVIP
             modelBuilder.Entity<khuyenmai>()
                 .HasMany(e => e.Sanphams)
                 .WithMany(e => e.khuyenmais)
-                .Map(m => m.ToTable("KM_SP").MapLeftKey("MaKM").MapRightKey("MaSP"));
+                .Map(m => m.ToTable("KM_SP").MapLeftKey("MaKM").MapRightKey("MaSP"));*/
 
             modelBuilder.Entity<NguoiBan>()
                 .Property(e => e.SDT)

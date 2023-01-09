@@ -10,15 +10,14 @@ namespace HTC_SHOPVIP
     using System.ComponentModel.DataAnnotations;
     using System.ComponentModel.DataAnnotations.Schema;
     using System.Data.Entity.Spatial;
-    [Table("KM_SP")]
-    public partial class KM_SP
+    [Table("KM_KH")]
+    public partial class KM_KH
     {
-
         public khuyenmai khuyenmai { get; set; }
-        public Sanpham Sanpham { get; set; }
+        public Khachhang khachhang { get; set; }
         [Key, Column(Order = 1)]
-        public int MaSP { get; set; }
-        [Key, Column(Order = 2)]
         public int MaKM { get; set; }
+        [Key, Column(Order = 2)]
+        public int MaKH { get; set; }
     }
 }

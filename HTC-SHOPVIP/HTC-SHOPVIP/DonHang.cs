@@ -36,5 +36,7 @@ namespace HTC_SHOPVIP
         public virtual ICollection<CTDonHang> CTDonHangs { get; set; }
 
         public virtual Khachhang Khachhang { get; set; }
+
+        public int MaNguoiBan { get; set; }
     }
 }

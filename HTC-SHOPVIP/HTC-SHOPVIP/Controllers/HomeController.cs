@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 using System.Web.Mvc;
-using HTC_SHOPVIP.Models;
+using HTC_SHOPVIP;
 namespace HTC_SHOPVIP.Controllers
 {
     public class HomeController : Controller

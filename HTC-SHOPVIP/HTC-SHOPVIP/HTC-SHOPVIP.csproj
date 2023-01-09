@@ -127,8 +127,12 @@
   <ItemGroup>
     <Compile Include="App_Start\BundleConfig.cs" />
     <Compile Include="App_Start\FilterConfig.cs" />
+    <Compile Include="App_Start\QuyenNhanVien.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="Areas\Admin\AdminAreaRegistration.cs" />
+    <Compile Include="Areas\Admin\Controllers\DanhGiaSPController.cs" />
+    <Compile Include="Areas\Admin\Controllers\DonHangController.cs" />
+    <Compile Include="Areas\Admin\Controllers\KhuyenMaiController.cs" />
     <Compile Include="Areas\Admin\Controllers\SanPhamController.cs" />
     <Compile Include="Areas\Admin\Controllers\TaiKhoanController.cs" />
     <Compile Include="Areas\QuanTriVien\QuanTriVienAreaRegistration.cs" />
@@ -142,6 +146,7 @@
     <Compile Include="HangSanXuat.cs" />
     <Compile Include="Khachhang.cs" />
     <Compile Include="khuyenmai.cs" />
+    <Compile Include="KM_KH.cs" />
     <Compile Include="KM_SP.cs" />
     <Compile Include="Model1.cs" />
     <Compile Include="NguoiBan.cs" />
@@ -175,6 +180,11 @@
     <Content Include="Areas\Admin\Views\SanPham\CapNhat.cshtml" />
     <Content Include="Areas\Admin\Views\SanPham\BaoLoi.cshtml" />
     <Content Include="Areas\Admin\Views\SanPham\testAPI.cshtml" />
+    <Content Include="Areas\Admin\Views\DonHang\DSDonHang.cshtml" />
+    <Content Include="Areas\Admin\Views\KhuyenMai\Index.cshtml" />
+    <Content Include="Areas\Admin\Views\KhuyenMai\ThemMoiKhuyemMai.cshtml" />
+    <Content Include="Areas\Admin\Views\KhuyenMai\ViewChinhSua.cshtml" />
+    <Content Include="Areas\Admin\Views\DanhGiaSP\Index.cshtml" />
     <None Include="Scripts\jquery-3.4.1.intellisense.js" />
     <Content Include="Scripts\jquery-3.4.1.js" />
     <Content Include="Scripts\jquery-3.4.1.min.js" />
